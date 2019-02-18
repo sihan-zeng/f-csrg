@@ -11,7 +11,7 @@ The Datasets/train.npy file is a small sample of training data. The complete tra
 We tested the code with python 2.7 and Tensorflow 1.12.0.
 
 ## Weights of Neural Networks
-Please download the pre-trained neural networks from  and place the weights in the folder Neural_Networks.
+Please download the pre-trained neural networks from https://gatech.box.com/s/gdteqz2te9x38yuurj70i4joiowanteo and place the weights in the folder Neural_Networks.
 
 ## Run Compressive Sensing Recovery
 
