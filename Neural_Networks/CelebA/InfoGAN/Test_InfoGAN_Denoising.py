@@ -28,7 +28,7 @@ if __name__ == '__main__':
         Z = graph.get_tensor_by_name('Proj:0')
         Xdn = graph.get_tensor_by_name('Xdn:0')
 
-        x_noisy = img_test+np.random.randn(1,32,32,1)*.0
+        x_noisy = img_test+np.random.randn(1,32,32,1)*.2
         z = sess.run(Z, feed_dict={Xnoisy: x_noisy, isTrain_Proj: False})
 
         x_denoised = sess.run(Xdn, feed_dict={Z: z, isTrain_Gen: False})
