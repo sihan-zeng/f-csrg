@@ -1,0 +1,6 @@
+model_checkpoint_path: "epoch-499"
+all_model_checkpoint_paths: "epoch-495"
+all_model_checkpoint_paths: "epoch-496"
+all_model_checkpoint_paths: "epoch-497"
+all_model_checkpoint_paths: "epoch-498"
+all_model_checkpoint_paths: "epoch-499"
